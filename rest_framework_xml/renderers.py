@@ -58,4 +58,4 @@ class XMLRenderer(BaseRenderer):
             pass
 
         else:
-            xml.characters(smart_text(data))
+            xml.characters(unicode(smart_text(data)))
